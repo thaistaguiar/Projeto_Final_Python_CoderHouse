@@ -13,9 +13,16 @@ O Objetivo deste projeto é extrair dados de bancos, corretoras e feriados nacio
 + Adicionar os dados tratados em um banco de dados para consulta
 + Validar as tabelas disponibilidades
 
-## Funcionalidades
+## Processos
 
 + **Extração:** Os dados são extraídos de três endpoints da BrasilAPI (`/banks`, `/feriados`, `/corretoras`)
 + **Transformação:** Os dados são transformados em dataframes pandas.
 + **Carga:** Os dados transformados são carregador em um banco de dados.
 + **Alertas:** Um sistema de alerta notifica falhas no processo de extração utilizando a biblioteca `plyer`.
+
+## Hipóteses
+
++ Em qual estado constam mais corretoras com status cancelada?
++ Em qual região estão as corretoras com maior patrimônio líquido?
++ Analisar se existe uma relação entre as corretoras de status cancelados com o valor de seus respectivos patrimônios.
+
