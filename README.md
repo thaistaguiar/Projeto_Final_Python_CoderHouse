@@ -1,1 +1,21 @@
-# Projeto_Final_Python_CoderHouse
+# Projeto Final - Pipeline ETL com BrasilAPI
+
+## Descrição
+
+<p>Este é um projeto desenvolvido no curso de Python da CoderHouse que implementa um pipeline ETL (Extração, Transformação e Carga) usando a BrasilAPI.<br>
+O Objetivo deste projeto é extrair dados de bancos, corretoras e feriados nacionais, transformá-los de acordo com a necessidade e carregá-los num banco de dados para consulta. O projeto conta, ainda, com um sistema de notificação de falhas do processo de extração.</p>
+
+## Fases do Projeto
+
++ Escolher uma API
++ Fazer a extração de pelo menos 3 tabelas
++ Realizar os tratamentos devidos das tabelas
++ Adicionar os dados tratados em um banco de dados para consulta
++ Validar as tabelas disponibilidades
+
+## Funcionalidades
+
++ **Extração:** Os dados são extraídos de três endpoints da BrasilAPI (`/banks`, `/feriados`, `/corretoras`)
++ **Transformação:** Os dados são transformados em dataframes pandas.
++ **Carga:** Os dados transformados são carregador em um banco de dados.
++ **Alertas:** Um sistema de alerta notifica falhas no processo de extração utilizando a biblioteca `plyer`.
