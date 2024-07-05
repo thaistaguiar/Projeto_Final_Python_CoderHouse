@@ -25,4 +25,4 @@ O Objetivo deste projeto é extrair dados de bancos, corretoras e feriados nacio
 + Em qual estado constam mais corretoras com status cancelada?
 + Em qual região estão as corretoras com maior patrimônio líquido?
 + Analisar se existe uma relação entre as corretoras de status cancelados com o valor de seus respectivos patrimônios.
-
++ Existe relação entre a data de registro da corretora com a situação de seu status? 
