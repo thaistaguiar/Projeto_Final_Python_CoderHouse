@@ -3,7 +3,7 @@
 ## Descrição
 
 <p>Este é um projeto desenvolvido no curso de Python da CoderHouse que implementa um pipeline ETL (Extração, Transformação e Carga) usando a BrasilAPI.<br>
-O Objetivo deste projeto é extrair dados de bancos, corretoras e feriados nacionais, transformá-los de acordo com a necessidade e carregá-los num banco de dados para consulta. O projeto conta, ainda, com um sistema de notificação de falhas do processo de extração.</p>
+Neste projeto, iremos analisar se existe uma relação entre o status da corretora com o valor de seus respectivos patrimônios ou com a data de seu registro. Iremos extrair dados da API escolhida, transformá-los de acordo com a necessidade e carregá-los num banco de dados para consulta. O projeto conta, ainda, com um sistema de notificação de falhas do processo de extração.</p>
 
 ## Fases do Projeto
 
@@ -19,10 +19,3 @@ O Objetivo deste projeto é extrair dados de bancos, corretoras e feriados nacio
 + **Transformação:** Os dados são transformados em dataframes pandas.
 + **Carga:** Os dados transformados são carregados em um banco de dados.
 + **Alertas:** Um sistema de alerta notifica falhas no processo de extração utilizando a biblioteca `plyer`.
-
-## Hipóteses
-
-+ Em qual estado constam mais corretoras com status cancelada?
-+ Em qual região estão as corretoras com maior patrimônio líquido?
-+ Analisar se existe uma relação entre as corretoras de status cancelados com o valor de seus respectivos patrimônios.
-+ Existe relação entre a data de registro da corretora com a situação de seu status? 
