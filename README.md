@@ -15,9 +15,9 @@ O Objetivo deste projeto é extrair dados de bancos, corretoras e feriados nacio
 
 ## Processos
 
-+ **Extração:** Os dados são extraídos de três endpoints da BrasilAPI (`/banks`, `/feriados`, `/corretoras`)
++ **Extração:** Os dados são extraídos de três fontes da BrasilAPI (`/banks`, `/feriados`, `/corretoras`)
 + **Transformação:** Os dados são transformados em dataframes pandas.
-+ **Carga:** Os dados transformados são carregador em um banco de dados.
++ **Carga:** Os dados transformados são carregados em um banco de dados.
 + **Alertas:** Um sistema de alerta notifica falhas no processo de extração utilizando a biblioteca `plyer`.
 
 ## Hipóteses
